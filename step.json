@@ -1,0 +1,69 @@
+[
+    {
+        "id": 1,
+        "method": "Emulation.setDeviceMetricsOverride",
+        "params": {
+            "width": 800,
+            "height": 800,
+            "deviceScaleFactor": 1,
+            "mobile": false
+        }
+    },
+
+    {
+        "id": 2,
+        "method": "Page.navigate",
+        "params": {
+            "url": "https://www.scrapingcourse.com/"
+        }
+    },
+
+    {
+        "id": 2,
+        "method": "Page.navigate",
+        "params": {
+            "url": "https://www.scrapingcourse.com/cloudflare-challenge"
+        }
+    },
+
+    {
+        "id": 4,
+        "method": "Input.dispatchMouseEvent",
+        "params": {
+            "type": "mousePressed",
+            "x": 45,
+            "y": 290,
+            "button": "left",
+            "clickCount": 1
+        }
+    },
+    {
+        "id": 5,
+        "method": "Input.dispatchMouseEvent",
+        "params": {
+            "type": "mouseReleased",
+            "x": 45,
+            "y": 290,
+            "button": "left",
+            "clickCount": 1
+        }
+    },
+    {
+        "id": 5,
+        "method": "DOM.getDocument",
+        "params": {
+            "depth": -1
+
+        }
+    },
+
+    {
+        "id": 6,
+        "method": "DOM.getOuterHTML",
+        "params": {
+            "nodeId": 3
+
+        }
+    }
+
+]
